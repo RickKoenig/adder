@@ -38,7 +38,7 @@ mod tests {
     #[test]
     #[should_panic]
     fn greater_than_100() {
-        Guess::new(200);
+        Guess::new(300);
     }
 
     #[test]
